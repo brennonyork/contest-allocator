@@ -1,0 +1,8 @@
+[package]
+name = "contest-allocator"
+version = "0.1.0"
+authors = ["jdy045"]
+
+[dependencies]
+csv = "0.14"
+rustc-serialize = "*"
