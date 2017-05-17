@@ -1,0 +1,10 @@
+name: contest-allocator
+version: "1.0"
+author: Brennon York <brennon.york@gmail.com>
+about: Given a CSV input of contestants for an aerobatic contest, will slot
+       them into the best respective volunteer roles
+args:
+    - INPUT:
+        help: Sets the CSV file to use
+        required: true
+        index: 1
