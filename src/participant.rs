@@ -2,7 +2,6 @@ use util::str_to_bool;
 
 pub struct Participant {
     pub full_name: String,
-    //n_num: String,
     pub is_judge: bool,
     pub category: String,
 }

@@ -1,4 +1,4 @@
-enum RoleType {
+pub enum RoleType {
     ChiefJudge,
     Judge,
     AssistantJudge,
@@ -9,9 +9,9 @@ enum RoleType {
 }
 
 pub struct Role {
-    role: RoleType,
-    name: String,
-    dependencies: Vec<String>,
+    pub role: RoleType,
+    pub name: String,
+    pub dependencies: Vec<String>,
 }
 
 pub fn generate_roles() -> Vec<Role> {
